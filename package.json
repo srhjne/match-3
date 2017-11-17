@@ -1,0 +1,20 @@
+{
+  "name": "match-four",
+  "version": "1.0.0",
+  "description": "Candy crush type game using node",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srhjne/match-3.git"
+  },
+  "author": "Sarah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srhjne/match-3/issues"
+  },
+  "homepage": "https://github.com/srhjne/match-3#readme"
+}
