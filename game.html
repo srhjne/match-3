@@ -1,1 +1,37 @@
-This is a game!
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="/styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+<div class="container-fluid">
+<div id="wrapper">
+<div id="game">
+</div>
+<ul>
+<li id="score-item"> </li>
+<li id="moves-item"> </li>
+</ul>
+<form id="game-form">
+<input type="number" id="size">
+<input type="submit" value="Start Game">
+</form>
+</div>
+<div >
+<table id=leaderboard>
+<tr>
+<th>
+Score
+</th>
+<th>
+Name
+</th>
+</tr>
+</table>
+
+</div>
+</div>
+<script src="/game.js"></script>
